@@ -1,16 +1,19 @@
 # dynamic-forms
 
-Project to create dinamic forms application using Django web framework
+## Project to create dinamic forms application using Django web framework
 
-Built With
+## Built With
+
 Python - Programming language
 Django - The web framework used
 Django-fobi - Form generator/builder application for Django
 
-Versions
+## Versions
+
 16/08/2018 Apollo prototype beta base
 
-Installation
+## Installation
+
 Prerequisites
 Python >= 3.6.x
 pip or pip3
@@ -26,24 +29,28 @@ $ pip 18.0 from /Library/Frameworks/..../pip (python 3.6)
 $ pip install --upgrade pip
 $ pip install virtualenv virtualenvwrapper
 
-Getting Started
+## Getting Started
+
 git clone https://[username]@bitbucket.org/enriquemt/fobi.git
 
-Creating the develop environment
+## Creating the develop environment
+
 [user_home]$ mkdir .virtualenv
 $ nano .virtualenv
-# add this
+add this
 export WORKON_HOME=$HOME/.virtualenvs
-# change the path to virtualenvwrapper.sh because depends of your system
+change the path to virtualenvwrapper.sh because depends of your system
 source /Library/Frameworks/Python.framework/Versions/3.6/bin/virtualenvwrapper.sh (change the path if necessary)
 export PIP_VIRTUALENV_BASE=$WORK_HOME 
 
-Create a virtual environment
+## Create a virtual environment
+
 $ virtualenv apolloOne
 $ source .virtualenv/apolloOne/bin/activate
 (apolloOne)$ command...
 
-Installing
+## Installing
+
 Go to folder that you had cloned the git project.
 (apolloOne)$ cd [django_site_root_folder]
 (apolloOne)$ pip install -r requirements.txt
@@ -51,7 +58,8 @@ Go to folder that you had cloned the git project.
 (apolloOne)$ python manage.py createsuperuser --username admin
 (apolloOne)$ python manage.py runserver [IP:][port number optional ex. 8000 or 127.0.0.1:8000]
 
-Open your browser and navigate to here
+## Open your browser and navigate to here
+
 http://localhost:8000
 super user administration: admin / apolloadm1n
 usuarios agentes:
@@ -62,7 +70,8 @@ django-admin and manage.py commands
 django-admin and manage.py commands (ES)
 django-admin and manage.py commands (EN)
 
-Reset and rebuild
+## Reset and rebuild
+
 This will IRREVERSIBLY DESTROY all data currently in the database, and return each table to an empty state.
 (apolloOne)$ cd [django_site_root_folder]
 (apolloOne)$ python manage.py showmigrations
@@ -71,7 +80,8 @@ This will IRREVERSIBLY DESTROY all data currently in the database, and return ea
 (apolloOne)$ python manage.py createsuperuser --name=admin --email=adminnoreal@apollo.apo
 (apolloOne)$ python manage.py runserver
 
-Create a new django application
+## Create a new django application
+
 (apolloOne)$ cd [django_site_root_folder]
 (apolloOne)$ python manage.py startapp [application name]
 RESULT
