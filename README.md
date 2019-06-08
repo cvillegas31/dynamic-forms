@@ -1,16 +1,16 @@
 # dynamic-forms
 
-## Project to create dinamic forms application using Django web framework
+Create dynamic forms application using Django web framework
 
 ## Built With
 
 Python - Programming language
-Django - The web framework used
+Django - Web framework
 Django-fobi - Form generator/builder application for Django
 
 ## Versions
 
-16/08/2018 Apollo prototype beta base
+16/08/2018 prototype
 
 ## Installation
 
@@ -31,7 +31,7 @@ $ pip install virtualenv virtualenvwrapper
 
 ## Getting Started
 
-git clone https://[username]@bitbucket.org/enriquemt/fobi.git
+clone this project
 
 ## Creating the develop environment
 
